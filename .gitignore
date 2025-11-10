@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+venv/
+*.log
+
+frontend-organizador/node_modules/
+frontend-organizador/dist/

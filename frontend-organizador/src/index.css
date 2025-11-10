@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f4f7f9;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.Menu-tabs {
+  margin-bottom: 20px;
+}
+
+.Menu-tabs button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.2s;
+}
+
+.Menu-tabs button.active {
+  background-color: #fff;
+  border-bottom: 1px solid #fff; 
+  font-weight: bold;
+  color: #007bff;
+}
+
+.Content-area {
+  border: 1px solid #ccc;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 0 5px 5px 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #a0c9f8;
+  cursor: not-allowed;
+}
+
+.Result-success {
+    border: 2px solid #28a745;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #d4edda;
+    color: #155724;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.Result-error {
+    border: 2px solid #dc3545;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.log-list {
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 3px;
+    list-style-type: none;
+    margin: 10px 0;
+}
