@@ -80,8 +80,14 @@ Após iniciar os dois servidores:
 * **Verificar API: Acesse http://127.0.0.1:5000/ no navegador. Se o JSON de status for exibido (status: API Organizador Full-Stack Ativa), a comunicação está pronta.**
 * **Teste de Funcionalidade: Use a interface do React para fornecer o caminho de um diretório de teste (ex: C:\Users\Downloads_Teste) e execute as duas funcionalidades. Verifique o resultado no seu sistema de arquivos e nos logs de sucesso na tela.**
 
-## 📝 Licença
-Este projeto está licenciado sob a MIT License.
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 ## 💻 Autor
-Luis Batista
+
+-   **Luis Batista**
+-   **GitHub:** `@Luis-Batista-Code`
+
